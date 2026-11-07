@@ -1,0 +1,1 @@
+"""Sirius windows skill."""

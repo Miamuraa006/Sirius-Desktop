@@ -1,0 +1,40 @@
+{
+  "version": "0.3 Foundation",
+  "voice": {
+    "enabled": true,
+    "device": null,
+    "command_decoder": "vosk",
+    "model_path": "models/ru_vosk",
+    "active_seconds": 60,
+    "sample_rate": 16000,
+    "min_confidence": 0.65
+  },
+  "hotkey": {
+    "modifiers": 1,
+    "key": 77
+  },
+  "history": {
+    "enabled": true,
+    "retention_days": 30
+  },
+  "files": {
+    "root": "%LOCALAPPDATA%\\Sirius\\Files",
+    "allowed_roots": [
+      "%LOCALAPPDATA%\\Sirius\\Files"
+    ]
+  },
+  "applications": {},
+  "ui": {
+    "chat_visible": true,
+    "theme": "dark"
+  },
+  "screenshot": {
+    "directory": "%LOCALAPPDATA%\\Sirius\\Screenshots"
+  },
+  "brightness": {
+    "display": 0
+  },
+  "browser": {
+    "search_url": "https://www.google.com/search?q={query}"
+  }
+}

@@ -1,0 +1,6 @@
+"""Extension boundary only; ordinary history is deliberately NOT called encrypted."""
+from typing import Protocol
+
+class Vault(Protocol):
+    def seal(self, plaintext: bytes) -> bytes: ...
+    def open(self, ciphertext: bytes) -> bytes: ...
